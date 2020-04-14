@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5809EA202445A51200250840 /* RNTrackPlayerAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5809EA1F2445A51200250840 /* RNTrackPlayerAudioPlayer.swift */; };
 		9A0CF10E2046E5AC0093A5DF /* PitchAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0CF10D2046E5AC0093A5DF /* PitchAlgorithms.swift */; };
 		9B0E282E1F07D76F00B71D2A /* RNTrackPlayerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0E282D1F07D76F00B71D2A /* RNTrackPlayerBridge.m */; };
 		9B0E282F1F07D76F00B71D2A /* RNTrackPlayerBridge.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9B0E282C1F07D76F00B71D2A /* RNTrackPlayerBridge.h */; };
@@ -57,6 +58,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5809EA1F2445A51200250840 /* RNTrackPlayerAudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNTrackPlayerAudioPlayer.swift; sourceTree = "<group>"; };
 		9A0CF10D2046E5AC0093A5DF /* PitchAlgorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchAlgorithms.swift; sourceTree = "<group>"; };
 		9B0E28291F07D76F00B71D2A /* libRNTrackPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNTrackPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0E282C1F07D76F00B71D2A /* RNTrackPlayerBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNTrackPlayerBridge.h; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 		9B0E282B1F07D76F00B71D2A /* RNTrackPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				5809EA1F2445A51200250840 /* RNTrackPlayerAudioPlayer.swift */,
 				9B70466322BFFDDD00065A77 /* Utils */,
 				9BFBA4D31F3DFA4B00453D3A /* Support */,
 				9B0E287A1F0831A400B71D2A /* Models */,
@@ -308,6 +311,7 @@
 				9B18C332226357940019375A /* MediaItemProperty.swift in Sources */,
 				9B18C329226357940019375A /* RemoteCommand.swift in Sources */,
 				9B18C333226357940019375A /* NowPlayingInfoController.swift in Sources */,
+				5809EA202445A51200250840 /* RNTrackPlayerAudioPlayer.swift in Sources */,
 				9B18C32B226357940019375A /* QueuedAudioPlayer.swift in Sources */,
 				9B70466522BFFDEE00065A77 /* Metadata.swift in Sources */,
 				9B18C33D226357940019375A /* AudioSession.swift in Sources */,
